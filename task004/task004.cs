@@ -7,9 +7,9 @@ int c = 21;
 if ((a % b == 0) & (a % c == 0))   // "и"
 //if ((a % b == 0) | (a % c == 0))   // "или"
 {
-    Console.WriteLine("кратно 21 и 7");
+    Console.WriteLine($"кратно {a} и {b}");
 }
 else
 {
-    Console.WriteLine("НЕ кратно 21 и 7");
+    Console.WriteLine($"НЕ кратно {a} и {b}");
 }
